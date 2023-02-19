@@ -118,37 +118,44 @@ h1 {
 .results {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0px;
     gap: 104px;
-
+    width: 1440px;
+    align-items: center;
     position: absolute;
-    width: 177px;
-    height: 254px;
-    left: 630px;
-    top: 335px;
+    top: 300px;
+    text-align: center;
 }
 
-.result-given {
+.result-box {
+    height: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 12px;
-
-    width: 177px;
-    height: 75px;
+    gap: 0px;
 
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
+.result-description {
+    height: 34px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #6A6A6A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height: 34px;
+}
+
 .result-word {
+    margin: 0px;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
-    text-align: center;
     color: #67BE3F;
     flex: none;
     order: 1;
